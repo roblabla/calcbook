@@ -1,0 +1,16 @@
+[package]
+name = "calcbook"
+version = "0.1.0"
+authors = ["roblabla <unfiltered@roblab.la>"]
+edition = "2018"
+
+[dependencies.gtk]
+version = "0.5.0"
+features = ["v3_10"]
+
+[dependencies.sourceview]
+version = "0.5.0"
+features = ["v3_10"]
+
+#[patch.crates-io]
+#gtk-source-sys = { path = '../sourceview/sourceview-sys' }
